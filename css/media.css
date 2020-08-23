@@ -1,0 +1,790 @@
+@media screen and (max-width:991px) {
+
+    .header_content {
+        margin-left: 38px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header .button {
+        display: none;
+    }
+
+    .turnkey_repair {
+        height: 600px;
+    }
+
+    .slider_nav {
+        display: none;
+    }
+
+    .projects {
+        height: 980px;
+        padding: 75px 0 0 0;
+    }
+
+    .projects_slider {
+        margin-left: 89px; 
+        flex-wrap: wrap;
+    }
+
+    .projects_slider .block_photo .photo {
+        width: 617px;
+        height: 334px;
+    }
+
+    .projects_detail {
+        width: 400px;
+    }
+
+    .title_projects {
+        margin-top: 0;
+    }
+
+    .subtitle_projects {
+        margin-top: 25px;
+    }
+
+    .block_detail {
+        margin-top: 25px;
+        margin-right: -4px;
+        height: 90px;
+    }
+
+    .control {
+        margin-top: 75px;
+    }
+
+    .title_control {
+        color: #181818;
+    }
+
+    
+    .video img {
+        width: 617px;
+        height: 334px;
+    }
+
+    .video span {
+        margin: 0 auto;
+        width: 617px;
+        height: 334px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .video_play-icon {
+        bottom: 75px;
+    }
+
+    .devider {
+        margin-top: 0;
+    }
+
+    .form {
+        width: 340px;
+        margin-top: 41px;
+    }
+
+    .form_group {
+        width: 340px;
+        margin-right: 0;
+        margin-top: 25px;
+    }
+
+    .form .form_button {
+        margin-top: 70px;
+        width: 340px;
+    }
+
+    .first-checkbox {
+        margin: 0;
+        margin-top: -98px;
+    }
+
+    .repair {
+        margin-top: 170px;
+    }
+
+    
+    .block_types {
+        width: 340px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .type_block1 {
+        margin-top: 45px;
+    }
+
+    .advantages_item {
+        margin-left: 89px;
+    }
+
+    .advantages_text {
+        width: 260px;
+    }
+
+    .form_request {
+        margin-right: 50px;
+    }
+
+    .help_save {
+        margin-right: 190px;
+    }
+
+    .fantasies {
+        display: none;
+    }
+
+    .measurement {
+        background-size: cover;
+        padding-bottom: 70px;
+    }
+
+    .measurement_block {
+        display: block;
+    }
+
+    .advantages {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .advantages_item {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .form_request {
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    .second_checkbox {
+        margin-top: 15px;
+    }
+
+    .form_button {
+        margin-top: 30px;
+    }
+
+    .form_button_call {
+        position: relative;
+        right: 0;
+    }
+
+    .help_save {
+        display: none;
+    }
+
+    .clients {
+        padding: 70px 0 70px 0;
+    }
+
+    .block_clients {
+        display: block;
+    }
+
+    .client_comment {
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+
+    .client_name {
+        margin-left: 0;
+        width: 215px;
+    }
+
+    .our_contacts {
+        height: 1300px;
+    }
+
+    .our_contacts iframe {
+        width: 617px;
+        height: 334px;
+    }
+
+    .form_contacts {
+        margin-top: 90px;
+        width: 617px;
+        height: 560px;
+        padding: 70px 0 0 0
+    }
+
+    .form_block-contacts {
+        width: 400px;
+    }
+
+    .form_block1 {
+        width: 400px;
+    }
+
+    .contacts_checkbox {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .adress {
+        padding-top: 700px;
+    }
+
+    .dark_block-contacts {
+        height: 1300px;
+    }
+
+    .footer .button {
+        display: none;
+    }
+
+    .footer_content {
+        margin-left: 38px;
+    }
+
+    /* .fantasies {
+        margin-top: 100px;
+    }
+
+    .block_fantasies {
+        display: flex;
+    }
+
+    .title_fantasies {
+        margin-left: 89px;
+        margin-top: 75px;
+        
+    }
+
+    .fantasies_menu {
+        margin-left: 89px;
+    }
+
+    .group1 {
+        margin-right: 89px;
+    }
+
+    .group2 {
+        display: none;
+    }  */
+
+}
+
+@media screen and (max-width:767px) {
+    nav {
+        display: none;
+    }
+
+    .header .button {
+        display: none;
+    }
+
+    .header_content {
+        margin: 0 38px;
+    }
+
+    .phone {
+        margin: 0 0 0 220px;
+    }
+
+    .turnkey_repair {
+        height: 100%;
+        padding: 110px 0 132px 60px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .projects {
+        height: 100%;
+        padding: 70px 0 90px 0;
+    }
+
+    .projects_slider {
+        margin: 0;
+    }
+
+    .projects_detail {
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    .title_projects {
+        margin-right: 36px;
+        font-size: 32px;
+    }
+
+    .subtitle_projects {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .title_detail {
+        font-size: 22px;
+    }
+
+    .block_detail {
+        margin-right: 0;
+        margin-top: 50px;
+        width: 250px;
+        height: 70px;
+    }
+
+    .block_photo {
+        margin-top: 36px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+
+    .block_photo .photo {
+        width: 517px;
+        height: 334px;
+    }
+
+    .block_photo .photo_next {
+        width: 36px;
+        height: 36px;
+        margin-top: -180px;
+        background-color: #E3B873;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .block_photo .photo_next_left{
+        margin-right: 230px;
+        transform: rotate(180deg);
+    }
+
+    .block_switcher {
+        display: none;
+    }
+
+    .control {
+        margin-top: 75px;
+    }
+
+    .title_control {
+        font-size: 26px;
+    }
+
+    .video {
+        width: 517px;
+    }
+
+    .video img {
+        width: 517px;
+        height: 334px;
+    }
+
+    .video span {
+        margin: 0 auto;
+        width: 517px;
+        height: 334px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .video_play-icon {
+        bottom: 75px;
+    }
+
+    .devider {
+        margin-top: 0;
+    }
+
+    .control_text {
+        width: 517px;
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .form {
+        width: 340px;
+        margin-top: 71px;
+    }
+
+    .form_group {
+        margin-top: 25px;
+        width: 340px;
+    }
+
+    .form_input {
+        width: 340px;
+    }
+
+    .form_button {
+        margin-top: 60px;
+        width: 340px;
+    }
+
+    .first-checkbox {
+        margin: 0;
+        margin-top: -98px;
+    }
+
+    .repair {
+        margin-top: 140px;
+    }
+
+    .title_black {
+        font-size: 26px;
+    }
+
+    .measurement, .fantasies {
+        display: none;
+    }
+
+    .fantasies_mobile {
+        display: block;
+        margin-top: 70px;
+    }
+
+    .fantasies_mobile .title_fantasies {
+        font-size: 32px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .clients {
+        background-image: none;
+        padding: 70px 0 70px 0;
+        margin-top: 70px;
+    }
+
+    .our_contacts {
+        margin: 0 auto;
+        margin-top: 70px;
+        width: 100%;
+        height: 1200px;
+        padding: 173px 18px 49px 18px;
+        background-image: none;
+        background-color: #131313;
+        z-index: -1;
+    }
+
+    .dark_block-contacts {
+        display: none;
+    }
+
+    .form_contacts {
+        margin-top: -120px;
+        background-color: transparent;
+    }
+
+    .form_block {
+        margin-top: 50px;
+    }
+
+    .form_block-contacts {
+        width: 340px;
+    }
+
+    .form_block1 {
+        width: 340px;
+    }
+
+    .contacts_checkbox {
+        margin-left: -45px;
+        margin-top: 10px;
+    }
+
+    .form_button_contacts {
+        margin-top: 25px;
+    }
+
+    .adress {
+        padding-top: 450px;
+    }
+
+
+    .our_contacts iframe {
+        width: 517px;
+        height: 334px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .header, .header_content {
+        width: 100%;
+        height: 57px;
+        margin: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 18px;
+    }
+
+    .header .button {
+        display: none;
+    }
+
+    .header .phone {
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin: 0;
+        margin-right: 18px;
+    }
+
+    .turnkey_repair {
+        padding: 85px 0 61px 18px;
+        height: 476px;
+    }
+
+    .turnkey_repair .dark_block {
+        height: 100%;
+    }
+
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+
+    .subtitle {
+        margin-top: 16px;
+        width: 320px;
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+
+    .turnkey_repair .button_block {
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    .turnkey_repair .button_block .button_cost {
+        width: 340px;
+    }
+
+    .turnkey_repair .button_block .button_submit {
+        display: none;
+    }
+
+    .turnkey_repair .button_block .mobile_visible {
+        margin-top: 26px;
+        display: block;
+        width: 340px;
+    }
+
+    .projects_slider {
+        margin: 0 auto;
+        max-width: 340px;
+    }
+
+    .projects_detail {
+        margin: 0;
+    }
+
+    .title_projects {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .subtitle_projects {
+        font-size: 11px;
+        line-height: 17px;
+        margin: 0 auto;
+        margin-top: 22px;
+        text-align: center;
+    }
+
+    .block_detail {
+        width: 140px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .title_detail {
+        font-size: 14px;
+    }
+
+    .projects_slider .block_photo .photo {
+        width: 340px;
+        height: 241px;
+    }
+
+    .block_photo .photo_next {
+        margin-top: -130px;
+    }
+
+    .video {
+        width: 340px;
+    }
+
+    .video img {
+        width: 340px;
+        height: 207px;
+    }
+
+    .video span {
+        margin: 0 auto;
+        width: 340px;
+        height: 207px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .video_play-icon {
+        width: 37px;
+        height: 37px;
+        bottom: 224px;
+    }
+    
+    .video_play-triangle {
+        width: 0;
+        height: 0;
+        margin-left: -6px;
+        margin-top: -7px;
+        border-style: solid;
+        border-width: 9px 0 9px 18px;
+        border-color: transparent transparent transparent #ffffff;
+        cursor: pointer;
+      }
+
+    .control {
+        height: 940px;
+        margin: 0;
+        padding: 58px 0 0 0;
+    }
+
+    .title_control {
+        color: #181818;
+    }
+
+    .icon {
+        margin-top: 19px;
+    }
+
+    .devider {
+         margin-top: -180px;
+    }
+
+    .control_text {
+        width: 340px;
+        font-size: 11px;
+        line-height: 19px;
+        color: #181818;
+    }
+
+    .control .form {
+        margin-top: 20px;
+    }
+
+    .form .form_group:nth-child(2) {
+        margin-top: 63px;
+    }
+
+    .form .form_group .form_label {
+        color: rgba(54, 54, 54, 0.5);
+    }
+
+    .form .form_group .form_input {
+        color: #181818;
+        padding: 0;
+    }
+
+    .form_input::placeholder {
+        color: #181818;
+    }
+
+    .control .form .form_button {
+        width: 340px;
+        margin-top: 80px;
+    }
+
+    .first-checkbox {
+        margin: -120px 0 0 0;
+    }
+
+    .first-checkbox .text {
+        color: #181818;
+    }
+
+    .repair {
+        margin-top: 0;
+    }
+
+    .fantasies_mobile {
+        margin-top: 55px;
+    }
+
+    .clients {
+        display: none;
+    }
+
+    .fantasies_mobile .title_fantasies {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .fantasies_mobile .block_photo .photo {
+        width: 340px;
+        height: 241px;
+    }
+
+    .fantasies_mobile .block_photo .photo_next_left {
+       margin-right: 180px;
+    }
+
+    .our_contacts {
+        height: 1240px;
+        margin-top: -114px;
+        padding: 173px 18px 49px 18px;
+        background-image: none;
+        background-color: #131313;
+        z-index: -1;
+    }
+
+    .form_contacts {
+        margin-top: -10px;
+    }
+
+    .contacts_checkbox {
+        margin: 15px 0 0 -45px;
+    }
+
+    .form_button_contacts {
+        margin-top: 40px;
+    }
+
+    .adress {
+        padding-top: 560px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .our_contacts iframe {
+        width: 340px;
+        height: 255px;
+        bottom: 80px;
+    }
+}
