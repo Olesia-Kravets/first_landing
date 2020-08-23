@@ -703,7 +703,6 @@
 
     .form .form_group .form_label {
         color: rgba(54, 54, 54, 0.5);
-        color: rgba(255, 255, 255, 0.5)
     }
 
     .form .form_group .form_input {
@@ -764,6 +763,11 @@
         background-color: #131313;
         z-index: -1;
     }
+
+    .dark_block-contacts {
+        display: none;
+    }
+
 
     .form_contacts {
         margin-top: -10px;
