@@ -448,7 +448,6 @@
         padding: 173px 18px 49px 18px;
         background-image: none;
         background-color: #131313;
-        z-index: -1;
     }
 
     .dark_block-contacts {
@@ -457,7 +456,8 @@
 
     .form_contacts {
         margin-top: -120px;
-        background-color: transparent;
+        width: 340px;
+        background-color: #131313;
     }
 
     .form_block {
@@ -709,6 +709,8 @@
     }
 
     .fantasies_mobile {
+        position: relative;
+        z-index: 3;
         margin-top: 55px;
     }
 
@@ -738,13 +740,12 @@
         padding: 173px 18px 49px 18px;
         background-image: none;
         background-color: #131313;
-        z-index: -1;
     }
 
     .dark_block-contacts {
         display: none;
     }
-
+ 
     .form_contacts {
         width: 340px;
         margin-top: -10px;
@@ -760,7 +761,7 @@
 
     .form_button_contacts {
         margin-top: 40px;
-    }
+    } 
 
     .adress {
         padding-top: 560px;
