@@ -61,6 +61,11 @@
         color: #181818;
     }
 
+    .video {
+        width: 617px;
+        height: 334px;
+    }
+
     
     .video img {
         width: 617px;
@@ -78,7 +83,7 @@
     }
 
     .video_play-icon {
-        bottom: 75px;
+        bottom: 0;
     }
 
     .devider {
