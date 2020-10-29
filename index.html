@@ -39,58 +39,106 @@
             </div>
             <div class="dark_block"></div>
         </section>
+
+
         <section class="projects">
             <div class="container">
-                <div class="slider_nav">
-                    <ul class="slider_photo">
-                        <li class="slider_photo_item"><a href="#" class="slider_photo_link">Rostov-on-Don, Admiral</a></li>
-                        <li class="slider_photo_item"><a href="#" class="slider_photo_link">Sochi Thieves</a></li>
-                        <li class="slider_photo_item"><a href="#" class="slider_photo_link">Rostov-on-Don Patriotic</a></li>
-                    </ul>
+                <div class="title_projects-block">
+                    <h2 class="title title_projects">Completed <br> projects </h2>
+                    <div class="subtitle subtitle_projects">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br> market we have made happy more than 1000 families</div>
                 </div>
-                <div class="projects_slider">
-                    <div class="projects_detail">
-                        <h2 class="title title_projects">Completed <br> projects </h2>
-                        <div class="subtitle subtitle_projects">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br> market we have made happy more than 1000 families</div>
-                        <div class="block_detail">
-                            <div class="title title_detail">City:</div>
-                            <div class="detail">Rostov-on-Don <br> LCD admiral</div>
-                        </div>
-
-                        <div class="block_detail">
-                            <div class="title title_detail">apartment area:</div>
-                            <div class="detail">81 m2</div>
-                        </div>
-
-                        <div class="block_detail">
-                            <div class="title title_detail">Repair time:</div>
-                            <div class="detail">3.5 months</div>
-                        </div>
-
-                        <div class="block_detail">
-                            <div class="title title_detail">Repair Cost:</div>
-                            <div class="detail">Upon request</div>
-                        </div>
-                        <div class="block_switcher">
-                            <img src="icons/arrow left.svg" alt="">
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <img src="icons/arrow right.svg" alt=""> 
-                        </div>
-                </div>
-                <div class="block_photo">
-                    <img src="img/completed projects/image 2.1.png" class="photo" alt="photo projects">
-                    <div class="photo_next photo_next_left">
-                        <img src="icons/next.svg" alt="next">
+             
+                    <div class="slider_nav">
+                        <ul class="slider_photo">
+                            <li class="slider_photo_item"><a class="slider_photo_link active">Rostov-on-Don, Admiral</a></li>
+                            <li class="slider_photo_item"><a class="slider_photo_link">Sochi Thieves</a></li>
+                            <li class="slider_photo_item"><a class="slider_photo_link">Rostov-on-Don,Patriotic</a></li>
+                        </ul>
                     </div>
-                    <div class="photo_next">
-                        <img src="icons/next.svg" alt="next">
+
+                    <div class="slider_wrapper">
+
+                        <div class="slide active">
+                            <div class="block_detail">
+                                <div class="title title_detail">City:</div>
+                                <div class="detail" id="city">Rostov-on-Don <br> LCD admiral</div>
+                                <div class="title title_detail">Repair time:</div>
+                                <div class="detail" id="time">3.5 months</div>   
+                            </div>
+    
+                            <div class="block_detail2">
+                                <div class="title title_detail">apartment area:</div>
+                                <div class="detail" id="area">81 m2</div>
+                                <div class="title title_detail">Repair Cost:</div>
+                                <div class="detail" id="cost">Upon request</div>
+                            </div>
+    
+                            <div class="block_photo">
+                                <img src="img/completed projects/image 2.1.png" class="photo" alt="photo projects">
+                            </div>
+
+                        </div>
+ 
+                        <div class="slide">
+                            <div class="block_detail">
+                                <div class="title title_detail">City:</div>
+                                <div class="detail" id="city">Sochi <br> Thieves</div>
+                                <div class="title title_detail">Repair time:</div>
+                                <div class="detail" id="time">3.5 months</div>   
+                            </div>
+    
+                            <div class="block_detail2">
+                                <div class="title title_detail">apartment area:</div>
+                                <div class="detail" id="area">105 m2</div>
+                                <div class="title title_detail">Repair Cost:</div>
+                                <div class="detail" id="cost">Upon request</div>
+                            </div>
+    
+                            <div class="block_photo">
+                                <img src="img/completed projects/image 3-min.png" class="photo" alt="photo projects">
+                        </div> 
                     </div>
-                </div>
-                </div>    
+
+                        <div class="slide">
+                            <div class="block_detail">
+                                <div class="title title_detail">City:</div>
+                                <div class="detail" id="city">Rostov-on-Don <br> Patriotic'</div>
+                                <div class="title title_detail">Repair time:</div>
+                                <div class="detail" id="time">3 months</div>   
+                            </div>
+    
+                            <div class="block_detail2">
+                                <div class="title title_detail">apartment area:</div>
+                                <div class="detail" id="area">93 m2</div>
+                                <div class="title title_detail">Repair Cost:</div>
+                                <div class="detail" id="cost">Upon request</div>
+                            </div>
+    
+                            <div class="block_photo">
+                                <img src="img/completed projects/image 3-min.png" class="photo" alt="photo projects">
+                        </div> 
+                    </div>
+
+                    <div class="block_switcher-mobile">
+                        <div class="circle">
+                            <img src="icons/next.svg" class="btn_left" id="btn_prev" alt="next">
+                        </div>
+                        <div class="circle">
+                            <img src="icons/next.svg" class="btn_right" id="btn_next" alt="next">
+                        </div>
+                    </div>
+
+                <div class="block_switcher">
+                    <img src="icons/arrow left.svg" id="arrow_prev" alt="left">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <img src="icons/arrow right.svg" id="arrow_next" alt="right">
+                </div>  
+
             </div>
         </section>
+
         <section class="control">
             <div class="container">
                 <h3 class="title title_control">online control </h3>
@@ -401,5 +449,7 @@
             <button class="button">Request a call</button>
         </div>
     </footer>
+
+    <script src="/src/index.js"></script>
 </body>
 </html>
