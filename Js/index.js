@@ -31,7 +31,7 @@ const activeDot = n => {
     }
 }
 
-const fullSlide = (i) => {
+const showSlide = (i) => {
     activeSlide(i);
     activeLink(i);
     activeDot(i);
@@ -40,34 +40,34 @@ const fullSlide = (i) => {
 const nextSlide = () => {
     if(index === slides.length - 1) {
         index = 0;
-        fullSlide(index);
+        showSlide(index);
     } else {
         index ++;
-        fullSlide(index);
+        showSlide(index);
     }
 }
 
 const prevSlide = () => {
     if(index === 0) {
         index = slides.length - 1;
-        fullSlide(index);
+        showSlide(index);
     } else {
         index --;
-        fullSlide(index);
+        showSlide(index);
     }
 }
 
 dots.forEach((itemDot, indexDot) => {
     itemDot.addEventListener('click', () => {
         index = indexDot;
-        fullSlide(index);
+        showSlide(index);
     })
 })
 
 sliderLinks.forEach((itemLink, indexLink) => {
     itemLink.addEventListener('click', () => {
         index = indexLink;
-        fullSlide(index);
+        showSlide(index);
     })
 })
 
