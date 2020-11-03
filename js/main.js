@@ -76,30 +76,3 @@ arrowPrev.addEventListener('click', prevSlide);
 
 btnNextMobile.addEventListener('click', nextSlide);
 btnPrevMobile.addEventListener('click', prevSlide);
-
-
-
-// для экранов max-width: 575px 
-
-// const nextSlideMobile = () => {
-//     if(index === slides.length - 1) {
-//         index = 0;
-//         setActiveSlide(index);
-//     } else {
-//         index ++;
-//         setActiveSlide(index);
-//     }
-// }
-
-// const prevSlideMobile = () => {
-//     if(index === 0) {
-//         index = slides.length - 1;
-//         setActiveSlide(index);
-//     } else {
-//         index --;
-//         setActiveSlide(index);
-//     }
-// }
-
-// btnNextMobile.addEventListener('click', nextSlideMobile);
-// btnPrevMobile.addEventListener('click', prevSlideMobile);
